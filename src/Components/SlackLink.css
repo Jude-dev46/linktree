@@ -1,0 +1,10 @@
+.slack {
+  margin: 2rem auto;
+  margin-top: 50px;
+  /* margin-bottom: 50px; */
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}

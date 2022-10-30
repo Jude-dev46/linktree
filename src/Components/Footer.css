@@ -1,0 +1,31 @@
+.footer-items {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  gap: 200px;
+
+  border: 1px solid #ccc;
+  margin: 40px;
+  margin-top: 80px;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  padding: 20px;
+}
+.item {
+  display: flex;
+  align-items: center;
+  gap: 500px;
+}
+.ingressive-icon {
+  /* I4G */
+  width: 132.13px;
+  height: 32px;
+
+  /* background: url(I4G); */
+
+  /* Inside auto layout */
+  /* flex: none;
+  order: 2;
+  flex-grow: 0; */
+}
