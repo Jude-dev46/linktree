@@ -8,7 +8,7 @@ import Footer from "./Footer";
 
 const DisplayProfile = () => {
   return (
-    <div>
+    <div class="page">
       <ProfileTitle />
       <DisplayLinks />
       <SlackLink />

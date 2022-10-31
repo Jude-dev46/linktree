@@ -5,7 +5,7 @@ import "./DisplayLinks.css";
 const DisplayLinks = () => {
   return (
     <div className="links">
-      <a href="" id="twitter">
+      <a href="https://twitter.com/judeoscar4" id="twitter">
         <button type="button">Twitter Link</button>
       </a>
       <a href="https://training.zuri.team/">

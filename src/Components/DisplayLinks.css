@@ -12,3 +12,31 @@ button {
   border-radius: 12px;
   cursor: pointer;
 }
+
+@media (max-width: 600px) {
+  button {
+    width: 100%;
+  }
+}
+@media (max-width: 375px) {
+  button {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 10px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 32px;
+
+    width: 343px;
+    height: 68px;
+    font-size: 18px;
+    font-style: normal;
+  }
+  a:link {
+    text-decoration: none;
+  }
+}

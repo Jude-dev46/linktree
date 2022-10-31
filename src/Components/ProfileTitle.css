@@ -6,12 +6,39 @@
   position: relative;
 }
 #profile__img {
-  margin-top: 20px;
+  margin-top: 5px;
 }
 .icon {
   position: absolute;
-  right: 38.53%;
-  top: 14.95%;
+  right: 15.53%;
+  top: -15.95%;
   bottom: 14.95%;
   cursor: pointer;
+}
+.icon-1 {
+  display: none;
+  position: absolute;
+  right: 15.53%;
+  top: -15.95%;
+  bottom: 14.95%;
+  cursor: pointer;
+}
+
+@media (max-width: 375px) {
+  .icon {
+    position: absolute;
+    right: -80.53%;
+    top: -20.95%;
+    bottom: 14.95%;
+    cursor: pointer;
+    display: none;
+  }
+  .icon-1 {
+    position: absolute;
+    right: -70.53%;
+    top: -20.95%;
+    bottom: 14.95%;
+    cursor: pointer;
+    display: block;
+  }
 }
