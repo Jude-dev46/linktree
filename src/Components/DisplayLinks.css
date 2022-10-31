@@ -11,6 +11,7 @@ button {
   border: none;
   border-radius: 12px;
   cursor: pointer;
+  color: #101828;
 }
 
 @media (max-width: 600px) {
