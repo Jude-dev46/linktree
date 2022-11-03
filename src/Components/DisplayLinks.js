@@ -1,6 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./DisplayLinks.css";
+
+import Contact from "./Contact";
 
 const DisplayLinks = () => {
   return (
@@ -33,6 +36,11 @@ const DisplayLinks = () => {
           Design Books
         </button>
       </a>
+      <Link to="/Contact">
+        <button type="button" id="contact">
+          Contact
+        </button>
+      </Link>
     </div>
   );
 };
