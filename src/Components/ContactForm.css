@@ -142,7 +142,7 @@
   }
   .contact-header__container {
     width: 375px;
-    margin-top: 80px;
+    margin-top: 50px;
   }
 }
 
@@ -155,7 +155,6 @@
 
     width: 375px;
     height: 116px;
-    /* margin-top: 10px; */
   }
 
   .contact-title {
